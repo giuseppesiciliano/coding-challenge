@@ -1,0 +1,81 @@
+/*--- IMMAGINE DI SFONDO ---*/
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*--- CONTENT TRASPARENTE ---*/
+.content {
+    background-color:rgb(0,0,0, 0.5);
+    border-radius: 30px;
+    padding: 100px 50px 100px 50px;
+    width: 1500px;
+    margin: 50px auto;
+}
+
+
+/*--- TESTATA LOGO ---*/
+img {
+    width: 300px;
+}
+
+header {
+    text-align: center;
+}
+
+.logo-text {
+    color: rgb(30, 253, 0);
+    font-size: 50px; 
+}
+
+
+/*--- BARRA DI NAVIGAZIONE ---*/
+nav {
+    background-color: rgb(30, 253, 0);
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+
+.bar-nav {
+    padding: 15px;
+    text-align: center;
+}
+
+/*--- MODELLI MONOPATTINO ---*/
+.monopattino {
+    color: white;
+    font-size: 30px;
+}
+
+h2 {
+    color: white;
+}
+
+.model {
+    padding: 30px 0px 0px 60px;    
+}
+
+/*--- STATO DI CARICA ---*/
+.medium-charge {
+    background-color: #f5b453;
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.full-charge {
+    background-color: rgb(30, 253, 0);
+    height: 40px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.low-charge {
+    background-color: rgb(197, 75, 66);
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
